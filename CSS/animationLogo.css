@@ -1,0 +1,23 @@
+@keyframes divcolor{
+    0%{background-color: steelblue; transform: translatex(200px);
+    }
+    25%{background-color: orangered;}
+    50%{background-color: darkviolet;}
+    75%{background-color: deeppink;}
+    100%{background-color: lawngreen;}
+}
+
+    div{
+    background-color: steelblue;
+    animation-name: divcolor;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    }
+    .center{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 50%;
+        filter:brightness(50%);
+    }
